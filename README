@@ -1,0 +1,8 @@
+Intentions :
+	I would like to have a database for my MQTT-data
+
+	A server program being able to record these data
+
+	Enabling another system to display these historical data
+
+	Timestamp for each data is required

@@ -1,0 +1,19 @@
+Done
+	README with intentions created
+	TODO started
+	git repository initiialized locally
+
+TODO
+	APIs
+1		find database api starting small
+			sqlite
+2		connect through paho-mqtt api
+
+	Version 0.1
+3		save a key-value-timestamp record
+4	generate github repo for duplicating 
+
+Ideas
+	generate a tree-like database -structure for mqtt-topics
+	have a general/replaceable database layer (for shiftng to another db-server)
+ 
