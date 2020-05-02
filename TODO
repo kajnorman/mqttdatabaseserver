@@ -2,6 +2,9 @@ Done
 	README with intentions created
 	TODO started
 	git repository initiialized locally
+	mqttdatabaseserver.py created 
+		takes connection through mqtt testserver  at mosquitto.org
+		displays testdata from trek/#
 
 TODO
 	APIs
@@ -16,4 +19,7 @@ TODO
 Ideas
 	generate a tree-like database -structure for mqtt-topics
 	have a general/replaceable database layer (for shiftng to another db-server)
- 
+ 	install script
+	crossplatform test
+	test-script 
+	make--- script 
