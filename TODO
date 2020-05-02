@@ -5,13 +5,15 @@ Done
 	mqttdatabaseserver.py created 
 		takes connection through mqtt testserver  at mosquitto.org
 		displays testdata from trek/#
-
+	mysql3 installed on testmachine (debian on win)
+	first test database created (not connected to mqtt)
 TODO
 	APIs
 1		find database api starting small
 			sqlite
 2		connect through paho-mqtt api
 
+	create a test-suite
 	Version 0.1
 3		save a key-value-timestamp record
 4	generate github repo for duplicating 

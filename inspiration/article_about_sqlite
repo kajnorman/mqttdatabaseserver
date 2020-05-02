@@ -1,0 +1,37 @@
+Found at  :   http://thefreephysicist.com/writing-mqtt-data-sqlite3-database-raspberry-pi/
+
+
+installed like 
+
+	sudo apt-get update
+#	sudo apt-get upgrade
+	sudo apt-get install sqlite3
+
+
+Make a new directory called "data":
+
+mkdir data
+cd data
+We need the sql database to store the key, value and current time. 
+So the database will have a table that contains three fields
+
+First, create the database:
+
+sqlite3 data.db
+This will create a database in the file data.db. We should now be in a sqlite shell, so type:
+
+
+
+#Modified downto here.. the rest needs adapting
+
+CREATE TABLE climate (reading_time datetime, temperature float, humidity float);
+Now we’ve created a table called climate, we can add to that table. Let’s test it by adding a random date, time, humidity and temperature:
+
+INSERT INTO climate (reading_time, temperature, humidity) values (“2011-06-21 12:34:56”, 20, 77);
+You can view the contents of the table,
+
+SELECT * FROM climate;
+And you can clear the table,
+
+DELETE FROM climate;
+Perfect! So we have a database on the raspberry pi, and we have created a table in to which we will store data.

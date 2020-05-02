@@ -1,0 +1,12 @@
+SQLite version 3.27.2 2019-02-25 16:06:06
+Enter ".help" for usage hints.
+sqlite> show tables
+   ...> ;
+Error: near "show": syntax error
+sqlite> create table full_table(reading_time datetime,key string, value string);
+sqlite> insert into  table full_table(reading_time ,key , value ) values ("2020-05-02 10:16:55", "firsttstke","firstvalue");
+Error: near "table": syntax error
+sqlite> insert into full_table(reading_time ,key , value ) values ("2020-05-02 10:16:55", "firsttstke","firstvalue");
+sqlite> select * from  full_table;
+2020-05-02 10:16:55|firsttstke|firstvalue
+sqlite>
