@@ -12,12 +12,13 @@ Done
 			sqlite
 		connect through paho-mqtt api
 	created a test-suite
+	Version 0.1
+		save a key-value-timestamp record
 
 TODO
-
-	Version 0.1
-3		save a key-value-timestamp record
-4	generate github repo for duplicating 
+	start a 24-hour test
+	generate two records one for topic one for load
+	generate github repo for duplicating 
 
 Ideas
 	generate a tree-like database -structure for mqtt-topics
